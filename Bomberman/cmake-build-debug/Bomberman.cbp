@@ -84,10 +84,88 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/Extra/Helper.cpp">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/Extra/Helper.h">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/Extra/Vector2.cpp">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/Extra/Vector2.h">
+			<Option target="Bomberman"/>
+		</Unit>
 		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/Game.cpp">
 			<Option target="Bomberman"/>
 		</Unit>
 		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/Game.h">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameObjects/Block.cpp">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameObjects/Block.h">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameObjects/Entity.cpp">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameObjects/Entity.h">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameObjects/GameObject.cpp">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameObjects/GameObject.h">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameObjects/Level.cpp">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameObjects/Level.h">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameObjects/Powerups/Powerup.cpp">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameObjects/Powerups/Powerup.h">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameStates/GameMenu.cpp">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameStates/GameMenu.h">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameStates/GameOver.cpp">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameStates/GameOver.h">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameStates/GamePaused.cpp">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameStates/GamePaused.h">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameStates/GamePlay.cpp">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameStates/GamePlay.h">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameStates/GameStateBase.cpp">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameStates/GameStateBase.h">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameStates/GameWin.cpp">
+			<Option target="Bomberman"/>
+		</Unit>
+		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/GameStates/GameWin.h">
 			<Option target="Bomberman"/>
 		</Unit>
 		<Unit filename="D:/C++ Projects/Git hub/Bomberman/Bomberman/src/main.cpp">

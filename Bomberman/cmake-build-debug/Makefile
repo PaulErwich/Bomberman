@@ -128,6 +128,54 @@ Bomberman/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/build
 .PHONY : Bomberman/fast
 
+src/Extra/Helper.obj: src/Extra/Helper.cpp.obj
+.PHONY : src/Extra/Helper.obj
+
+# target to build an object file
+src/Extra/Helper.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/Extra/Helper.cpp.obj
+.PHONY : src/Extra/Helper.cpp.obj
+
+src/Extra/Helper.i: src/Extra/Helper.cpp.i
+.PHONY : src/Extra/Helper.i
+
+# target to preprocess a source file
+src/Extra/Helper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/Extra/Helper.cpp.i
+.PHONY : src/Extra/Helper.cpp.i
+
+src/Extra/Helper.s: src/Extra/Helper.cpp.s
+.PHONY : src/Extra/Helper.s
+
+# target to generate assembly for a file
+src/Extra/Helper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/Extra/Helper.cpp.s
+.PHONY : src/Extra/Helper.cpp.s
+
+src/Extra/Vector2.obj: src/Extra/Vector2.cpp.obj
+.PHONY : src/Extra/Vector2.obj
+
+# target to build an object file
+src/Extra/Vector2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/Extra/Vector2.cpp.obj
+.PHONY : src/Extra/Vector2.cpp.obj
+
+src/Extra/Vector2.i: src/Extra/Vector2.cpp.i
+.PHONY : src/Extra/Vector2.i
+
+# target to preprocess a source file
+src/Extra/Vector2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/Extra/Vector2.cpp.i
+.PHONY : src/Extra/Vector2.cpp.i
+
+src/Extra/Vector2.s: src/Extra/Vector2.cpp.s
+.PHONY : src/Extra/Vector2.s
+
+# target to generate assembly for a file
+src/Extra/Vector2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/Extra/Vector2.cpp.s
+.PHONY : src/Extra/Vector2.cpp.s
+
 src/Game.obj: src/Game.cpp.obj
 .PHONY : src/Game.obj
 
@@ -151,6 +199,270 @@ src/Game.s: src/Game.cpp.s
 src/Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
+
+src/GameObjects/Block.obj: src/GameObjects/Block.cpp.obj
+.PHONY : src/GameObjects/Block.obj
+
+# target to build an object file
+src/GameObjects/Block.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameObjects/Block.cpp.obj
+.PHONY : src/GameObjects/Block.cpp.obj
+
+src/GameObjects/Block.i: src/GameObjects/Block.cpp.i
+.PHONY : src/GameObjects/Block.i
+
+# target to preprocess a source file
+src/GameObjects/Block.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameObjects/Block.cpp.i
+.PHONY : src/GameObjects/Block.cpp.i
+
+src/GameObjects/Block.s: src/GameObjects/Block.cpp.s
+.PHONY : src/GameObjects/Block.s
+
+# target to generate assembly for a file
+src/GameObjects/Block.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameObjects/Block.cpp.s
+.PHONY : src/GameObjects/Block.cpp.s
+
+src/GameObjects/Entity.obj: src/GameObjects/Entity.cpp.obj
+.PHONY : src/GameObjects/Entity.obj
+
+# target to build an object file
+src/GameObjects/Entity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameObjects/Entity.cpp.obj
+.PHONY : src/GameObjects/Entity.cpp.obj
+
+src/GameObjects/Entity.i: src/GameObjects/Entity.cpp.i
+.PHONY : src/GameObjects/Entity.i
+
+# target to preprocess a source file
+src/GameObjects/Entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameObjects/Entity.cpp.i
+.PHONY : src/GameObjects/Entity.cpp.i
+
+src/GameObjects/Entity.s: src/GameObjects/Entity.cpp.s
+.PHONY : src/GameObjects/Entity.s
+
+# target to generate assembly for a file
+src/GameObjects/Entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameObjects/Entity.cpp.s
+.PHONY : src/GameObjects/Entity.cpp.s
+
+src/GameObjects/GameObject.obj: src/GameObjects/GameObject.cpp.obj
+.PHONY : src/GameObjects/GameObject.obj
+
+# target to build an object file
+src/GameObjects/GameObject.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameObjects/GameObject.cpp.obj
+.PHONY : src/GameObjects/GameObject.cpp.obj
+
+src/GameObjects/GameObject.i: src/GameObjects/GameObject.cpp.i
+.PHONY : src/GameObjects/GameObject.i
+
+# target to preprocess a source file
+src/GameObjects/GameObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameObjects/GameObject.cpp.i
+.PHONY : src/GameObjects/GameObject.cpp.i
+
+src/GameObjects/GameObject.s: src/GameObjects/GameObject.cpp.s
+.PHONY : src/GameObjects/GameObject.s
+
+# target to generate assembly for a file
+src/GameObjects/GameObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameObjects/GameObject.cpp.s
+.PHONY : src/GameObjects/GameObject.cpp.s
+
+src/GameObjects/Level.obj: src/GameObjects/Level.cpp.obj
+.PHONY : src/GameObjects/Level.obj
+
+# target to build an object file
+src/GameObjects/Level.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameObjects/Level.cpp.obj
+.PHONY : src/GameObjects/Level.cpp.obj
+
+src/GameObjects/Level.i: src/GameObjects/Level.cpp.i
+.PHONY : src/GameObjects/Level.i
+
+# target to preprocess a source file
+src/GameObjects/Level.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameObjects/Level.cpp.i
+.PHONY : src/GameObjects/Level.cpp.i
+
+src/GameObjects/Level.s: src/GameObjects/Level.cpp.s
+.PHONY : src/GameObjects/Level.s
+
+# target to generate assembly for a file
+src/GameObjects/Level.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameObjects/Level.cpp.s
+.PHONY : src/GameObjects/Level.cpp.s
+
+src/GameObjects/Powerups/Powerup.obj: src/GameObjects/Powerups/Powerup.cpp.obj
+.PHONY : src/GameObjects/Powerups/Powerup.obj
+
+# target to build an object file
+src/GameObjects/Powerups/Powerup.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameObjects/Powerups/Powerup.cpp.obj
+.PHONY : src/GameObjects/Powerups/Powerup.cpp.obj
+
+src/GameObjects/Powerups/Powerup.i: src/GameObjects/Powerups/Powerup.cpp.i
+.PHONY : src/GameObjects/Powerups/Powerup.i
+
+# target to preprocess a source file
+src/GameObjects/Powerups/Powerup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameObjects/Powerups/Powerup.cpp.i
+.PHONY : src/GameObjects/Powerups/Powerup.cpp.i
+
+src/GameObjects/Powerups/Powerup.s: src/GameObjects/Powerups/Powerup.cpp.s
+.PHONY : src/GameObjects/Powerups/Powerup.s
+
+# target to generate assembly for a file
+src/GameObjects/Powerups/Powerup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameObjects/Powerups/Powerup.cpp.s
+.PHONY : src/GameObjects/Powerups/Powerup.cpp.s
+
+src/GameStates/GameMenu.obj: src/GameStates/GameMenu.cpp.obj
+.PHONY : src/GameStates/GameMenu.obj
+
+# target to build an object file
+src/GameStates/GameMenu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GameMenu.cpp.obj
+.PHONY : src/GameStates/GameMenu.cpp.obj
+
+src/GameStates/GameMenu.i: src/GameStates/GameMenu.cpp.i
+.PHONY : src/GameStates/GameMenu.i
+
+# target to preprocess a source file
+src/GameStates/GameMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GameMenu.cpp.i
+.PHONY : src/GameStates/GameMenu.cpp.i
+
+src/GameStates/GameMenu.s: src/GameStates/GameMenu.cpp.s
+.PHONY : src/GameStates/GameMenu.s
+
+# target to generate assembly for a file
+src/GameStates/GameMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GameMenu.cpp.s
+.PHONY : src/GameStates/GameMenu.cpp.s
+
+src/GameStates/GameOver.obj: src/GameStates/GameOver.cpp.obj
+.PHONY : src/GameStates/GameOver.obj
+
+# target to build an object file
+src/GameStates/GameOver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GameOver.cpp.obj
+.PHONY : src/GameStates/GameOver.cpp.obj
+
+src/GameStates/GameOver.i: src/GameStates/GameOver.cpp.i
+.PHONY : src/GameStates/GameOver.i
+
+# target to preprocess a source file
+src/GameStates/GameOver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GameOver.cpp.i
+.PHONY : src/GameStates/GameOver.cpp.i
+
+src/GameStates/GameOver.s: src/GameStates/GameOver.cpp.s
+.PHONY : src/GameStates/GameOver.s
+
+# target to generate assembly for a file
+src/GameStates/GameOver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GameOver.cpp.s
+.PHONY : src/GameStates/GameOver.cpp.s
+
+src/GameStates/GamePaused.obj: src/GameStates/GamePaused.cpp.obj
+.PHONY : src/GameStates/GamePaused.obj
+
+# target to build an object file
+src/GameStates/GamePaused.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GamePaused.cpp.obj
+.PHONY : src/GameStates/GamePaused.cpp.obj
+
+src/GameStates/GamePaused.i: src/GameStates/GamePaused.cpp.i
+.PHONY : src/GameStates/GamePaused.i
+
+# target to preprocess a source file
+src/GameStates/GamePaused.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GamePaused.cpp.i
+.PHONY : src/GameStates/GamePaused.cpp.i
+
+src/GameStates/GamePaused.s: src/GameStates/GamePaused.cpp.s
+.PHONY : src/GameStates/GamePaused.s
+
+# target to generate assembly for a file
+src/GameStates/GamePaused.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GamePaused.cpp.s
+.PHONY : src/GameStates/GamePaused.cpp.s
+
+src/GameStates/GamePlay.obj: src/GameStates/GamePlay.cpp.obj
+.PHONY : src/GameStates/GamePlay.obj
+
+# target to build an object file
+src/GameStates/GamePlay.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GamePlay.cpp.obj
+.PHONY : src/GameStates/GamePlay.cpp.obj
+
+src/GameStates/GamePlay.i: src/GameStates/GamePlay.cpp.i
+.PHONY : src/GameStates/GamePlay.i
+
+# target to preprocess a source file
+src/GameStates/GamePlay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GamePlay.cpp.i
+.PHONY : src/GameStates/GamePlay.cpp.i
+
+src/GameStates/GamePlay.s: src/GameStates/GamePlay.cpp.s
+.PHONY : src/GameStates/GamePlay.s
+
+# target to generate assembly for a file
+src/GameStates/GamePlay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GamePlay.cpp.s
+.PHONY : src/GameStates/GamePlay.cpp.s
+
+src/GameStates/GameStateBase.obj: src/GameStates/GameStateBase.cpp.obj
+.PHONY : src/GameStates/GameStateBase.obj
+
+# target to build an object file
+src/GameStates/GameStateBase.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GameStateBase.cpp.obj
+.PHONY : src/GameStates/GameStateBase.cpp.obj
+
+src/GameStates/GameStateBase.i: src/GameStates/GameStateBase.cpp.i
+.PHONY : src/GameStates/GameStateBase.i
+
+# target to preprocess a source file
+src/GameStates/GameStateBase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GameStateBase.cpp.i
+.PHONY : src/GameStates/GameStateBase.cpp.i
+
+src/GameStates/GameStateBase.s: src/GameStates/GameStateBase.cpp.s
+.PHONY : src/GameStates/GameStateBase.s
+
+# target to generate assembly for a file
+src/GameStates/GameStateBase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GameStateBase.cpp.s
+.PHONY : src/GameStates/GameStateBase.cpp.s
+
+src/GameStates/GameWin.obj: src/GameStates/GameWin.cpp.obj
+.PHONY : src/GameStates/GameWin.obj
+
+# target to build an object file
+src/GameStates/GameWin.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GameWin.cpp.obj
+.PHONY : src/GameStates/GameWin.cpp.obj
+
+src/GameStates/GameWin.i: src/GameStates/GameWin.cpp.i
+.PHONY : src/GameStates/GameWin.i
+
+# target to preprocess a source file
+src/GameStates/GameWin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GameWin.cpp.i
+.PHONY : src/GameStates/GameWin.cpp.i
+
+src/GameStates/GameWin.s: src/GameStates/GameWin.cpp.s
+.PHONY : src/GameStates/GameWin.s
+
+# target to generate assembly for a file
+src/GameStates/GameWin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bomberman.dir\build.make CMakeFiles/Bomberman.dir/src/GameStates/GameWin.cpp.s
+.PHONY : src/GameStates/GameWin.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -185,9 +497,48 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Bomberman
+	@echo ... src/Extra/Helper.obj
+	@echo ... src/Extra/Helper.i
+	@echo ... src/Extra/Helper.s
+	@echo ... src/Extra/Vector2.obj
+	@echo ... src/Extra/Vector2.i
+	@echo ... src/Extra/Vector2.s
 	@echo ... src/Game.obj
 	@echo ... src/Game.i
 	@echo ... src/Game.s
+	@echo ... src/GameObjects/Block.obj
+	@echo ... src/GameObjects/Block.i
+	@echo ... src/GameObjects/Block.s
+	@echo ... src/GameObjects/Entity.obj
+	@echo ... src/GameObjects/Entity.i
+	@echo ... src/GameObjects/Entity.s
+	@echo ... src/GameObjects/GameObject.obj
+	@echo ... src/GameObjects/GameObject.i
+	@echo ... src/GameObjects/GameObject.s
+	@echo ... src/GameObjects/Level.obj
+	@echo ... src/GameObjects/Level.i
+	@echo ... src/GameObjects/Level.s
+	@echo ... src/GameObjects/Powerups/Powerup.obj
+	@echo ... src/GameObjects/Powerups/Powerup.i
+	@echo ... src/GameObjects/Powerups/Powerup.s
+	@echo ... src/GameStates/GameMenu.obj
+	@echo ... src/GameStates/GameMenu.i
+	@echo ... src/GameStates/GameMenu.s
+	@echo ... src/GameStates/GameOver.obj
+	@echo ... src/GameStates/GameOver.i
+	@echo ... src/GameStates/GameOver.s
+	@echo ... src/GameStates/GamePaused.obj
+	@echo ... src/GameStates/GamePaused.i
+	@echo ... src/GameStates/GamePaused.s
+	@echo ... src/GameStates/GamePlay.obj
+	@echo ... src/GameStates/GamePlay.i
+	@echo ... src/GameStates/GamePlay.s
+	@echo ... src/GameStates/GameStateBase.obj
+	@echo ... src/GameStates/GameStateBase.i
+	@echo ... src/GameStates/GameStateBase.s
+	@echo ... src/GameStates/GameWin.obj
+	@echo ... src/GameStates/GameWin.i
+	@echo ... src/GameStates/GameWin.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

@@ -8,6 +8,13 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 
+#include "GameStates/GameStateBase.h"
+#include "GameStates/GameMenu.h"
+#include "GameStates/GamePlay.h"
+#include "GameStates/GamePaused.h"
+#include "GameStates/GameOver.h"
+#include "GameStates/GameWin.h"
+
 class Game
 {
  public:
@@ -22,6 +29,16 @@ class Game
 
  private:
   sf::RenderWindow& window;
+
+  sf::Font font;
+
+  GameMenu* game_menu;
+  GamePlay* game_play;
+  GamePaused* game_paused;
+  GameOver* game_over;
+  GameWin* game_win;
+
+  GameStateBase* current_state;
 
 };
 
