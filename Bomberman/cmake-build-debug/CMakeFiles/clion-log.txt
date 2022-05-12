@@ -1,0 +1,5 @@
+"C:\Users\MLG Erwich\AppData\Local\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "D:\C++ Projects\Git hub\Bomberman\Bomberman"
+-- Found SFML 2.5.1 in C:/SFML-2.5.1/lib/cmake/SFML
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/C++ Projects/Git hub/Bomberman/Bomberman/cmake-build-debug
