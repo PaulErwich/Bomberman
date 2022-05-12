@@ -4,7 +4,7 @@
 
 #include "Level.h"
 
-sf::Texture Level::WORLD_TEXTURE[TEXTURE_NUM];
+sf::Image Level::WORLD_IMAGE;
 
 Level::Level(sf::RenderWindow& game_window) : window(game_window)
 {
@@ -23,23 +23,16 @@ Level::~Level()
 
 bool Level::init(Entity* _player)
 {
-  return false;
+  init_setup_blocks();
+
+  return true;
 }
 
 bool Level::loadAssets()
 {
-  // 16 x 16 with 1 pixel gap
-
-  for (int i = 0; i < 28; i++)
+  if (!WORLD_IMAGE.loadFromFile("Data/city-tiles/Spritesheet/roguelikeCity_magenta.png"))
   {
-    for (int j = 0; j < 37; j++)
-    {
-      sf::IntRect temp(0 + (j * 16 + 1), 0 + (i * 16 + 1), 16, 16);
-      if (!WORLD_TEXTURE[i + j * 28].loadFromFile("Data/city-tiles/Spritesheet/roguelikeCity_magenta.png", temp))
-      {
-        return false;
-      }
-    }
+    return false;
   }
 
   return true;
@@ -69,11 +62,66 @@ void Level::render()
 
 void Level::init_setup_blocks()
 {
-  for (int i = 0; i < HEIGHT; i++)
+  sf::IntRect temp(0, 0, 16, 16);
+
+  int indestructibleX = 2, indestructibleY = 5;
+  int destructibleX = 10, destructibleY = 5;
+  int walkableX = 11, walkableY = 19;
+
+  for (int i = 0; i < HEIGHT; i ++)
   {
-    for (int j = 0; j < WIDTH; j++)
+    for (int j = 0; j < WIDTH; j ++)
     {
-      world[i + j * HEIGHT]->init()
+      if (i % 2 == 0)
+      {
+        if (j % 2)
+        {
+          temp.top = destructibleY* 16 + destructibleY;
+          temp.left = destructibleX * 16 + destructibleX;
+          texture.loadFromImage(WORLD_IMAGE, temp);
+          world[i * WIDTH + j]->init(texture, j * BLOCK_SZ, i * BLOCK_SZ);
+        }
+        else
+        {
+          temp.top = walkableY * 16 + walkableY;
+          temp.left = walkableX * 16 + walkableX;
+          texture.loadFromImage(WORLD_IMAGE, temp);
+          world[i * WIDTH + j]->init(texture, j * BLOCK_SZ, i * BLOCK_SZ);
+        }
+      }
+      else
+      {
+        if (j % 2 == 0)
+        {
+          temp.top = destructibleY * 16 + destructibleY;
+          temp.left = destructibleX * 16 + destructibleX;
+          texture.loadFromImage(WORLD_IMAGE, temp);
+          world[i * WIDTH + j]->init(texture, j * BLOCK_SZ, i * BLOCK_SZ);
+        }
+        else
+        {
+          temp.top = indestructibleY * 16 + indestructibleY;
+          temp.left = indestructibleX * 16 + indestructibleX;
+          texture.loadFromImage(WORLD_IMAGE, temp);
+          world[i * WIDTH + j]->init(texture, j * BLOCK_SZ, i * BLOCK_SZ);
+        }
+      }
     }
   }
+
+  temp.top = walkableY * 16 + walkableY;
+  temp.left = walkableX * 16 + walkableX;
+  texture.loadFromImage(WORLD_IMAGE, temp);
+
+  world[0 * WIDTH + 1]->setTexture(texture);
+  world[0 * WIDTH + 9]->setTexture(texture);
+
+  world[1 * WIDTH + 0]->setTexture(texture);
+  world[1 * WIDTH + 10]->setTexture(texture);
+
+  world[9 * WIDTH + 0]->setTexture(texture);
+  world[9 * WIDTH + 10]->setTexture(texture);
+
+  world[10 * WIDTH + 1]->setTexture(texture);
+  world[10 * WIDTH + 9]->setTexture(texture);
 }

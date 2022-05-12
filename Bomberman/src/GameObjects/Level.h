@@ -28,15 +28,16 @@ class Level
   STATE update(float dt);
   void render();
 
-  static const int TEXTURE_NUM = 28 * 37;
-  static sf::Texture WORLD_TEXTURE[TEXTURE_NUM];
+  static sf::Image WORLD_IMAGE;
 
  private:
   sf::RenderWindow &window;
 
-  static const int WIDTH = 21;
-  static const int HEIGHT = 21;
-  static const int BLOCK_SZ = 32;
+  static const int WIDTH = 11;
+  static const int HEIGHT = 11;
+  static const int BLOCK_SZ = 64;
+
+  sf::Texture texture;
 
 
 

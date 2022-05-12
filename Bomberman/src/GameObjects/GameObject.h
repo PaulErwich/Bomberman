@@ -40,7 +40,7 @@ class GameObject
 
  protected:
   sf::RenderWindow &window;
-  sf::Texture *texture;
+  sf::Texture texture;
   sf::Sprite *sprite;
 
   Vector2 movement;

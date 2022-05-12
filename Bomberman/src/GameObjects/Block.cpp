@@ -12,16 +12,22 @@ Block::Block(sf::RenderWindow& game_window) :
 
 void Block::init(sf::Texture& block_texture, float x, float y)
 {
-  texture = &block_texture;
+  texture = block_texture;
 
-  sprite->setTexture(*texture);
-  float scale = 1;
+  sprite->setTexture(texture);
+  float scale = 4;
   sprite->scale(scale, scale);
 
-  sprite->setPosition(x, y);
+  int excess = 98;
+  sprite->setPosition(x + excess, y + excess);
 
   width = sprite->getGlobalBounds().width;
   height = sprite->getGlobalBounds().height;
   setMin();
   calculateMax();
+}
+
+void Block::setTexture(sf::Texture& new_texture)
+{
+  sprite->setTexture(new_texture);
 }

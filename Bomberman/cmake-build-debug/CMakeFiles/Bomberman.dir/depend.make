@@ -156,8 +156,13 @@ CMakeFiles/Bomberman.dir/src/Game.cpp.obj: \
  C:/SFML-2.5.1/include/SFML/Window/Window.hpp \
  C:/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp \
  C:/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp \
+ ../src/Extra/Vector2.h \
  ../src/Game.cpp \
  ../src/Game.h \
+ ../src/GameObjects/Block.h \
+ ../src/GameObjects/Entity.h \
+ ../src/GameObjects/GameObject.h \
+ ../src/GameObjects/Level.h \
  ../src/GameStates/GameMenu.h \
  ../src/GameStates/GameOver.h \
  ../src/GameStates/GamePaused.h \
@@ -563,6 +568,7 @@ CMakeFiles/Bomberman.dir/src/GameStates/GameOver.cpp.obj: \
  C:/SFML-2.5.1/include/SFML/Window/Window.hpp \
  C:/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp \
  C:/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp \
+ ../src/Extra/Helper.h \
  ../src/GameStates/GameOver.cpp \
  ../src/GameStates/GameOver.h \
  ../src/GameStates/GameStateBase.h
@@ -719,6 +725,11 @@ CMakeFiles/Bomberman.dir/src/GameStates/GamePlay.cpp.obj: \
  C:/SFML-2.5.1/include/SFML/Window/Window.hpp \
  C:/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp \
  C:/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp \
+ ../src/Extra/Vector2.h \
+ ../src/GameObjects/Block.h \
+ ../src/GameObjects/Entity.h \
+ ../src/GameObjects/GameObject.h \
+ ../src/GameObjects/Level.h \
  ../src/GameStates/GamePlay.cpp \
  ../src/GameStates/GamePlay.h \
  ../src/GameStates/GameStateBase.h
@@ -874,6 +885,7 @@ CMakeFiles/Bomberman.dir/src/GameStates/GameWin.cpp.obj: \
  C:/SFML-2.5.1/include/SFML/Window/Window.hpp \
  C:/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp \
  C:/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp \
+ ../src/Extra/Helper.h \
  ../src/GameStates/GameStateBase.h \
  ../src/GameStates/GameWin.cpp \
  ../src/GameStates/GameWin.h
@@ -952,7 +964,12 @@ CMakeFiles/Bomberman.dir/src/main.cpp.obj: \
  C:/SFML-2.5.1/include/SFML/Window/Window.hpp \
  C:/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp \
  C:/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp \
+ ../src/Extra/Vector2.h \
  ../src/Game.h \
+ ../src/GameObjects/Block.h \
+ ../src/GameObjects/Entity.h \
+ ../src/GameObjects/GameObject.h \
+ ../src/GameObjects/Level.h \
  ../src/GameStates/GameMenu.h \
  ../src/GameStates/GameOver.h \
  ../src/GameStates/GamePaused.h \

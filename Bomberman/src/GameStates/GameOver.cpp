@@ -1,6 +1,3 @@
-//
-// Created by MLG Erwich on 12/05/2022.
-//
 
 #include "GameOver.h"
 #include "../Extra/Helper.h"
@@ -9,7 +6,7 @@ GameOver::GameOver(
   STATE state_id, sf::RenderWindow& game_window, sf::Font& game_font) :
   GameStateBase(state_id, game_window, game_font)
 {
-
+  transition = game_state_id;
 }
 bool GameOver::init()
 {
@@ -41,12 +38,15 @@ void GameOver::input(sf::Event event)
     }
   }
 }
+
 STATE GameOver::update(float dt)
 {
   return transition;
 }
+
 void GameOver::render()
 {
-  window.draw()
-
+  window.draw(return_Game_Menu);
+  window.draw(quit_option);
+  window.draw(background_Game_Won);
 }

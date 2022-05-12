@@ -12,75 +12,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7976b9a0-0f72-41c6-bcc2-5b80fc7af75b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/Backgrounds/start_screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/Fonts/OpenSans-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/Fonts/open-sans/Apache License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/Fonts/open-sans/OpenSans-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/Fonts/open-sans/OpenSans-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/Fonts/open-sans/OpenSans-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/Fonts/open-sans/OpenSans-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/Fonts/open-sans/OpenSans-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/Fonts/open-sans/OpenSans-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/Fonts/open-sans/OpenSans-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/Fonts/open-sans/OpenSans-Semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/Fonts/open-sans/OpenSans-SemiboldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/city-tiles/License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/city-tiles/Preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/city-tiles/Sample.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/city-tiles/Spritesheet/roguelikeCity_magenta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/city-tiles/Spritesheet/roguelikeCity_transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/city-tiles/Spritesheet/spritesheetInfo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/players.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/Data/powerups.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/Extra/Helper.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/Extra/Helper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/Extra/Vector2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/Extra/Vector2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameObjects/Block.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameObjects/Block.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameObjects/Entity.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameObjects/Entity.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameObjects/GameObject.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameObjects/GameObject.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameObjects/Level.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameObjects/Level.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameObjects/Powerups/Powerup.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameObjects/Powerups/Powerup.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameStates/GameMenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameStates/GameMenu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameStates/GameOver.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameStates/GameOver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameStates/GamePaused.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameStates/GamePaused.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameStates/GamePlay.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameStates/GamePlay.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameStates/GameStateBase.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameStates/GameStateBase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameStates/GameWin.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman/src/GameStates/GameWin.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/cmake-build-debug/Bomberman.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/cmake-build-debug/Bomberman.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bomberman/cmake-build-debug/Bomberman.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/cmake-build-debug/Bomberman.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/src/Game.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/src/Game.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/src/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/src/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bomberman/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/src/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/src/Game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/src/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/src/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/src/GameObjects/Block.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/src/GameObjects/Block.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/src/GameObjects/Block.h" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/src/GameObjects/Block.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/src/GameObjects/GameObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/src/GameObjects/GameObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/src/GameObjects/GameObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/src/GameObjects/GameObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/src/GameObjects/Level.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/src/GameObjects/Level.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/src/GameObjects/Level.h" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/src/GameObjects/Level.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/src/GameStates/GameOver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/src/GameStates/GameOver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/src/main.cpp" afterDir="false" />
     </list>
-    <list id="15489ad1-791b-4493-999d-d0e1d0c8b4d3" name="Changes by scott" comment="" />
+    <list id="15489ad1-791b-4493-999d-d0e1d0c8b4d3" name="Changes by scott" comment="">
+      <change beforePath="$PROJECT_DIR$/Bomberman/src/GameStates/GameOver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/src/GameStates/GameOver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/src/GameStates/GameWin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/src/GameStates/GameWin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/src/GameStates/GameWin.h" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/src/GameStates/GameWin.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,6 +51,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/Bomberman/src/GameStates/GameOver.cpp">
+      <ranges>
+        <range start1="0" end1="3" start2="0" end2="0" changelist="15489ad1-791b-4493-999d-d0e1d0c8b4d3" />
+        <range start1="11" end1="12" start2="8" end2="9" changelist="15489ad1-791b-4493-999d-d0e1d0c8b4d3" />
+        <range start1="43" end1="43" start2="40" end2="41" changelist="7976b9a0-0f72-41c6-bcc2-5b80fc7af75b" />
+        <range start1="47" end1="47" start2="45" end2="46" changelist="7976b9a0-0f72-41c6-bcc2-5b80fc7af75b" />
+        <range start1="49" end1="51" start2="48" end2="51" changelist="15489ad1-791b-4493-999d-d0e1d0c8b4d3" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectId" id="294Fw6p9B8iNljKezxhouqFwpLk" />
   <component name="ProjectLevelVcsManager">
@@ -117,6 +82,7 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../C++ worksheet 3/breakout-21-22-PaulErwich" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
   </component>
@@ -126,11 +92,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Bomberman" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Bomberman" TARGET_NAME="Bomberman" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Bomberman" RUN_TARGET_NAME="Bomberman">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -139,6 +100,11 @@
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -152,6 +118,7 @@
       <updated>1652364686692</updated>
       <workItem from="1652364687865" duration="545000" />
       <workItem from="1652365248388" duration="9464000" />
+      <workItem from="1652375604096" duration="6836000" />
     </task>
     <servers />
   </component>

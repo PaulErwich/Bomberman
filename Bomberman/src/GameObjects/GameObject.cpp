@@ -5,7 +5,6 @@
 #include "GameObject.h"
 GameObject::GameObject(sf::RenderWindow& game_window) : window(game_window)
 {
-  texture = new sf::Texture();
   sprite = new sf::Sprite();
   visible = true;
   width = 0;
@@ -14,7 +13,6 @@ GameObject::GameObject(sf::RenderWindow& game_window) : window(game_window)
 
 GameObject::~GameObject()
 {
-  delete texture;
   delete sprite;
 }
 

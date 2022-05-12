@@ -6,7 +6,7 @@
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
-    sf::RenderWindow window(sf::VideoMode(720, 720), "Bomberman");
+    sf::RenderWindow window(sf::VideoMode(900, 900), "Bomberman");
     window.setFramerateLimit(60);
 
     Game game(window);
@@ -41,7 +41,7 @@ int main() {
 
       game.update(dt);
 
-      window.clear(sf::Color::Blue);
+      window.clear(sf::Color::Black);
 
       game.render();
       window.display();

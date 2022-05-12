@@ -19,7 +19,7 @@ class GameWin : public GameStateBase
   void render() override;
 
  private:
-  bool transition;
+  STATE transition;
   sf::Text game_Won_text;
   sf::Text return_Game_Menu;
   sf::Text quit_option;
