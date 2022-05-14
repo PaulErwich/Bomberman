@@ -37,6 +37,7 @@ bool Game::init()
 }
 
 void Game::input(sf::Event event) { current_state->input(event); }
+
 void Game::update(float dt)
 {
   STATE new_state = current_state->update(dt);

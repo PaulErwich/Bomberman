@@ -8,7 +8,7 @@ GamePlay::GamePlay(
   GameStateBase(state_id, game_window, font)
 {
   level = new Level(window);
-  player = new Entity();
+  player = new Entity(window);
 }
 
 GamePlay::~GamePlay()
@@ -19,6 +19,11 @@ GamePlay::~GamePlay()
 bool GamePlay::init()
 {
   if (!Level::loadAssets())
+  {
+    return false;
+  }
+
+  if (!player->init())
   {
     return false;
   }
@@ -38,12 +43,12 @@ void GamePlay::reset()
 
 void GamePlay::input(sf::Event event)
 {
-  GameStateBase::input(event);
+  level->input(event);
 }
 
 STATE GamePlay::update(float dt)
 {
-  return GameStateBase::update(dt);
+  return level->update(dt);;
 }
 
 void GamePlay::render()

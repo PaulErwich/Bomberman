@@ -25,7 +25,7 @@ bool GameObject::init() { return true; }
 
 void GameObject::update(float dt) {}
 
-void GameObject::render() { window.draw(*sprite); }
+void GameObject::render() { if (visible) window.draw(*sprite); }
 
 void GameObject::setMin() { min = Vector2(sprite->getPosition().x, sprite->getPosition().y); }
 Vector2 GameObject::getMin() { return min; }
