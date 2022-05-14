@@ -1,3 +1,0 @@
-"C:\Users\MLG Erwich\AppData\Local\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Bomberman.dir/objects.a
-C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\ar.exe cr CMakeFiles\Bomberman.dir/objects.a @CMakeFiles\Bomberman.dir\objects1.rsp
-C:\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe -g -static -Wl,--whole-archive CMakeFiles\Bomberman.dir/objects.a -Wl,--no-whole-archive -o Bomberman.exe -Wl,--out-implib,libBomberman.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Bomberman.dir\linklibs.rsp
