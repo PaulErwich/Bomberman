@@ -36,6 +36,7 @@ Level::Level(sf::RenderWindow& game_window) : window(game_window)
     {0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0},
   };
 }
+
 Level::~Level()
 {
   for (int i = 0; i < WIDTH * HEIGHT; i++)
